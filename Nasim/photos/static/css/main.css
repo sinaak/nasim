@@ -1,0 +1,40 @@
+body {
+    background: url('../images/Background.JPG') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#choose{
+    width: 700px;
+    height: 300px;
+  
+    margin-top: 330px;
+}
+
+#Cloth-choose{
+    background-image: url("../images/Cloths.png");
+/*
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+*/
+    
+    border-radius: 5px;
+    float: left;
+    width: 350px;
+    height: 300px;
+  
+}
+#Jewelary-choose{
+    background-image: url("../images/Accessories.png");
+/*
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+*/
+    
+    border-radius: 5px;
+    float: right;
+    width: 350px;
+    height: 300px;
+}

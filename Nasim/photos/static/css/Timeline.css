@@ -1,0 +1,351 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+body {
+        background-color: white;
+      padding 0; 
+        margin: 0;
+  
+}
+
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    text-indent: -9999px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: white;
+}
+
+
+
+.box-name:hover {
+    color: black;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+
+
+#head-bar{
+width: 100%;
+height: 50px;
+    background-color: #1f0505;
+}
+
+#searcher {
+    outline: none;
+    display: inline-block;
+    position: relative;
+    bottom: 1px;
+    left: 250px;
+    font-size: 16px;
+    line-height: 33px;
+    height: 37px;
+    border: 1px solid #a7a7a7;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#search-button {
+    font-family: "Poiret One", cursive;
+    width: 6em;
+    position: relative;
+    bottom: 3px;
+    left: 245px;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #a7a7a7;
+    overflow: visible;
+    border-radius: 0 5px 5px 0;
+    background-color: #f2f2f2;
+    vertical-align: middle;
+    display: inline-block;
+    border-left-width: 0;
+    font-size: 16px;
+    line-height: 35px;
+    height: 100%;
+    padding: 0 11px;
+}
+
+#search-button:hover {
+    background-color: darkkhaki;
+}
+
+#search-options {
+    position: relative;
+    bottom: 2px;
+    left: 250px;
+    width: 6em;
+    padding: 2px;
+    font-size: 15px;
+    line-height: 90px;
+    height: 36px;
+    border-radius: 0;
+    outline: none;
+    margin-right: 5px;
+}
+
+#name{
+    margin-left: 36%;
+    width: 350px;
+    height: 100px;
+    background-color: white;
+
+}
+#nasim{
+    
+    width: 350px;
+    height: 100px;
+    background-image: url(../images/nasim.png);
+    margin-top: 5px;
+    
+    
+}
+
+#logo-text {
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    font-family: "Poiret One", cursive;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    margin: 15px auto;
+}
+
+#logo-text span#two {
+    color: purple;
+}
+
+.logo-img {
+    position: absolute;
+    width: 50px;
+    left: 25px;
+}
+
+.box-options {
+    display: none;
+}
+
+.inline {
+    display: inline-block;
+    padding: 5px;
+}
+
+.bar {
+    position: relative;
+    
+    font-family: "Poiret One", cursive;
+    font-weight: bold;
+}
+
+div.box-option {
+    width: 430px;
+    position: absolute;
+    top: 68px;
+    left: 6px;
+    background-color: rgb(62, 65, 67);
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+
+    .search {
+        width: 40%;
+        left: 8%;
+    }
+    
+    #search-button {
+        width: 20%;
+    }
+    
+    #searcher {
+        width: 50%;
+    }
+    
+    .bar {
+     
+        font-size: 13px;
+        
+        left: 21%;
+    }
+.header{
+     position:relative;
+    width: 100%;
+    height: 30px;
+     position:relative;
+
+
+}
+
+#Background1{
+width: 1200px;
+height: 300px;
+background-image:  url(../images/background1.png);
+   margin-top: 50px; 
+
+}
+
+#main-body{
+    width: 1000px;
+    height: auto;
+    margin:auto;
+ 
+
+
+}
+#empty{
+    width: 780px;
+    height: 40px;
+
+}
+#news{
+    background-color: #c3a879;   
+    width: 600px;
+    height: 330px;
+    border: 1px;
+    border-radius: 2px;
+    float: right;  
+  
+}
+#pictures{
+    width: 1000px;
+    height: auto;
+    margin:auto;
+    margin-top: 40px;
+}
+
+
+ul {
+    margin: auto;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    margin-top: 3px;
+    float: left;
+}
+
+#selector{
+    margin-left:36%;
+}
+
+.select {
+    display: block;
+    margin: auto;
+    margin-right: 30px;
+    color: gray;
+}
+a:hovor {
+    color: black;
+}
+
+.inlene{
+color: darkgray;
+}
+.inline:hovor{
+color: white;
+}
+
+#connect{
+    float: left;
+    width: 300px;
+    height:auto;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 2px;
+}
+.data1{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;   
+}
+.data2{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px; 
+}
+#footer1{
+    float: left;
+background-image: url(../images/Background2.png);
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+}
+#footer2{
+    float: left;
+background-color: black;
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+}
+
+#INfotter1{
+        padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+#INfotter2{
+    margin-top: 10px;
+    margin-right: 5px;
+    text-align: right;
+    font-size: 10px;
+    color: dimgrey;
+}
+
+#wrapper {
+    background-color: black;
+    width: 100%;
+    height: 450px;
+    top: 50%;
+    left: 0;
+    border-radius: 2px;
+
+			}
+h1,h2{
+ font-family: Indie Flower, cursive;
+    margin-left: 10px;
+}
+#fb{
+background-image: url(../images/facebook.png);
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 25px;
+    height:25px;
+    float: left;
+}
+
+#insta{
+background-image: url(../images/instagram.png);
+    margin-top: 60px;
+    margin-left: 10px;
+    width: 25px;
+    height:25px;
+        float: left;
+
+}
