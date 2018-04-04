@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+                {% load staticfiles %}
+        <link rel="stylesheet" href="{% static 'css/contact.css' %}">
+        <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="{% static 'images/logo/logo3.ico' %}">
+<title>Nasim Akhavan ::Offical</title>
+
+        <meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+		<meta name="description" value="An example of a fluid/liquid/responsive full window width carousel with the previous and next image truncated on the sides." />
+		<meta name="keywords" value="example, carousel, full, fluid, liquid, window, width" />
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>
+		<script src="{% static 'js/jquery.carouFredSel-6.0.4-packed.js'%}" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#carousel').carouFredSel({
+					width: '100%',
+					items: {
+						visible: 3,
+						start: -1
+					},
+					scroll: {
+						items: 1,
+						duration: 1000,
+						timeoutDuration: 3000
+					},
+					prev: '#prev',
+					next: '#next',
+					pagination: {
+						container: '#pager',
+						deviation: 1
+					}
+				});
+			});
+		</script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js">
+</script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js">
+</script>
+
+<script type="text/javascript">
+//paste this code under head tag or in a seperate js file.
+    // Wait for window load
+    $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+    });
+
+</script>
+
+    </head>
+    
+    <body>
+        <div class="se-pre-con"></div>
+
+        
+       <header >
+           <div id="head-bar"> 
+            <div id="smalllogo"></div>
+           <div class="search inline">
+                    <div id="global-nav">
+                        <select id="search-options">
+                            <option>All</option>
+                            <option>Cloths</option>
+                            <option>Jewelary</option>
+                        </select>
+                     <input type="search" id="searcher" placeholder="search..">
+                        <button id="search-button" value="search" type="submit">Search</button>
+                    </div>
+                </div>
+                <div class="bar inline">
+                    <a href="/" id="home" class="inline">Home</a>
+                    |
+                    <a href="/contact" id="my-profile" class="inline">Contact Us</a>
+            </div>
+           </div> 
+           <div id="name">
+           <div id="nasim"></div>
+           </div>
+        </header>
+        <header id="header" class="header">
+            <div id="selector">
+            
+                 </div>
+           
+            <hr>
+        </header>
+
+        <article>
+            <div id="total">
+            <div id="instagram">
+
+                <div id="insta-main-logo"></div>
+
+                <div id="instapixbody">
+
+                    {%for img in images2 %}
+                    
+                   {% if forloop.counter < 7 %}
+                    
+                <div class="items3">
+                    <a href="http://www.instagram.com/nasimakhavanofficial/"><img
+                    style="max-width:120px" src="{{ img.image.url }}" height="120" width="120"></a>
+                    </div>
+                    {%endif%}
+                                   {% endfor %}
+                </div>
+
+
+            </div>
+            <div id="instruction">
+                <div id="Address">
+                    <p class="addres"> <b>Address:</b> No.64, Takhti ST., Elahieh ST. Tehran, Iran </p>
+                    <p class="addres"> <b>TEL:</b> +98-22215682 </p>
+                    <p class="addres"> <b>EMAIL:</b> <email>contact@nasimakhavan.com </email> </p>
+                    <p class="addres"> <b>INSTAGRAM:</b> instagram.com/nasimakhavan 
+                    </p>
+                </div>
+                <div class="divider"></div>
+
+ <div id="connect">
+
+            <h2>Feedback & Suggestion </h2>
+       
+            <form method="get" action="">
+                
+                <input type="text" name="name" placeholder="Name" class="data1" style="color:black;" />
+                <input type="email" name="email" placeholder="Email" class="data1" style="color:black;" />
+                <input class="data3"  name="comment" type="hidden" >
+                <textarea class="data3" name="comment" maxlength="1000" cols="25" 
+                rows="6"> </textarea>
+            </input>
+                <input type="submit" value="Submit" class="data2">
+            </form>
+        
+        </div>
+
+
+            </div>
+        </div>
+
+            <div class="divider"></div>
+             <div id ="map">
+            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="1100" height="300" src="https://maps.google.com/maps?hl=en&q=Takhti Square, Tehran&ie=UTF8&t=roadmap&z=16&iwloc=B&output=embed"><div><small><a href="http://embedgooglemaps.com">embedgooglemaps.com</a></small></div><div><small><a href="http://premiumlinkgenerator.com/nitroflare-org">nitroflare premium link generator</a></small></div>
+            </iframe>
+        </div>
+
+
+
+        </article>
+
+       
+         <footer id="footer2">
+            <a href="https://www.facebook.com/nasim.akhavanofficial"><div id="fb"></div></a>
+            <a href="http://www.instagram.com/nasimakhavanofficial/"> <div id="insta"></div></a>
+            <div id="INfotter1">&copy; 2015 Nasim Akhavan - All rights reserved</div>
+            <div id="INfotter2">Desigend by Sina Akhavan</div>
+
+        </footer>
+        
+        
+    </body>
